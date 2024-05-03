@@ -46,7 +46,9 @@ def iniciar():
         elif s >= limitador:
             s = 0
             m += 1
-
+        elif m>= limitador:
+            m = 0
+            h+=1
         tempo = "{:02d}:{:02d}:{:02d}".format(h, m, s)
         label_tempo['text'] = tempo
 
