@@ -66,7 +66,7 @@ def pausar():
     global rodar
     rodar = False
 
-#funcao pausar
+#funcao reiniciar
 
 def reiniciar():
     global tempo
